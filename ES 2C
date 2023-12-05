@@ -1,0 +1,24 @@
+// Dopo aver inserito N numeri interi, con N scelto da utente,  trova il valore massimo e minim in linguaggio C
+#include <stdio.h>
+int main()
+{   int n, num, max=-99999, min=+99999,i=0;
+do{
+    printf("Quanti numeri vuoi inserire?");
+    scanf("%d",&n);
+}while(n<=0);
+while(n>0){
+printf("Inserisci il numero %d: ",i+1);
+scanf("%d",&num);
+if(min>num){
+    min=num;
+}
+if(max<num){
+    max=num;
+}
+n--;
+i++;
+}
+printf("Il numero %d e' il numero massimo\n",max);
+printf("Il numero %d e' il numero minimo\n",min);
+    return 0;
+}

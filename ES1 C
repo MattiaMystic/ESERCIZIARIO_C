@@ -1,5 +1,5 @@
 // Dopo aver inserito N numeri interi, con N scelto da utente, sommarli
-#include <stdio.h>;
+#include <stdio.h>
 int main()
 {
     int numero, dimensione, contatore, i = 0;

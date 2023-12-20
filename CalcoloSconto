@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    int spesa,netto,scelta = 1;
+    
+    while(scelta = 1){
+    printf("Inserisci quanti euro spendi per sapere lo sconto");
+    scanf("%d", &spesa);
+    while(spesa<=0){
+        printf("La spesa non puo' essere negativa o nulla\nReinserire");
+    }
+    if(spesa<=500){
+        netto = spesa * 0.10;
+        printf("E' stato applicato uno sconto del 10 percento\n");
+    }
+    else if(spesa>500 && spesa<1001){
+        netto = spesa * 0.20;
+        printf("E' stato applicato uno sconto del 20 percento\n");
+    }
+    else{
+        netto = spesa * 0.30;
+        printf("E' stato applicato uno sconto del 30 percento\n");
+    }
+    printf("La spesa e': %d\n", netto);
+    printf("Inserire 1 per controllare di nuovo lo sconto o qualsiasi altro valore per chiudere.");
+    scanf("%d", &scelta);
+    }
+    return 0;
+}

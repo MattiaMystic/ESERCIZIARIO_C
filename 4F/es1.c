@@ -13,6 +13,7 @@ programma termina quando uno dei due valori o entrambi sono uguali a zero.*/
         printf("Inserisci una coppia di numeri: \n");
         scanf("%d", &n1);
         scanf("%d", &n2); //SI USA PER RIFERIRSI ALL'INDIRIZZO DI MEMORIA LA &
+        // UNA VARIABILE PUNTATORE OSPITA UN INDIRIZZO DI MEMORIA ( &n1) 
         if (n1 < n2)
         {
             rapporto = (double)n1 / (double)n2;

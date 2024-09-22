@@ -19,12 +19,12 @@ ragione per cui non è stato possibile svolgere il calcolo.
     printf("Inserisci una coppia di numeri reali: \n");
     scanf("%d",&n1);
         scanf("%d",&n2);
-        if (a < b)
-			r = (double)b / (double)a;
-		else
-			r = (double)a / (double)b;
+        if (n1 < n2){
+			r = (double)n1 / (double)n2;
+	}else{
+			r = (double)n1 / (double)n2;
 
-		if (r > 0)
+	}if (r > 0)
 		{
 			r = sqrt(r);
 			printf("radice quadrata del rapporto: %f", r);

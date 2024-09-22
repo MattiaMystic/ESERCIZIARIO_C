@@ -13,25 +13,28 @@ che non permettono di svolgere il calcolo nel dominio dei numeri reali.
 Prima di terminare si richiede di stampare un messaggio che indichi la
 ragione per cui non è stato possibile svolgere il calcolo.
     */
-    int n1,n2;
+    int n1, n2;
     double r;
-    do{
-    printf("Inserisci una coppia di numeri reali: \n");
-    scanf("%d",&n1);
-        scanf("%d",&n2);
-        if (n1 < n2){
-			r = (double)n1 / (double)n2;
-	}else{
-			r = (double)n1 / (double)n2;
-
-	}if (r > 0)
-		{
-			r = sqrt(r);
-			printf("radice quadrata del rapporto: %f", r);
-		}
-    }while(r>0);
+    do
+    {
+        printf("Inserisci una coppia di numeri reali: \n");
+        scanf("%d", &n1);
+        scanf("%d", &n2);
+        if (n1 < n2)
+        {
+            r = (double)n1 / (double)n2;
+        }
+        else
+        {
+            r = (double)n1 / (double)n2;
+        }
+        if (r > 0)
+        {
+            r = sqrt(r);
+            printf("radice quadrata del rapporto: %f", r);
+        }
+    } while (r > 0);
     printf("\n La radice non può avere valore 0");
-    
 
     return 0;
 }

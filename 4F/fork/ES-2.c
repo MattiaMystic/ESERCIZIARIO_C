@@ -11,20 +11,24 @@ int main(int argc, char *argv[])
         
 
     }else if(p==0){//figlio
-    
+     printf("Io sono il 1 figlio di padre con PID=%d\n",getpid());
+     int ff=fork();
+   if(ff==0){
+printf("Io sono il figlio del 1 figlio del padre con PID=%d\n",getpid());
+
     int f1=fork();
     if(f1==0){
-         printf("Io sono il 1 figlio di padre con PID=%d\n",getpid());
-    }
-    int f2=fork();
-    if(f2==0){
          printf("Io sono il 2 figlio di padre con PID=%d\n",getpid());
+         int ff=fork();
+   if(ff==0){
+printf("Io sono il figlio del 2 figlio del padre con PID=%d\n",getpid());
+
+         
+   }
     }
    
-   int ff=fork();
-   if(ff==0){
-printf("Io sono il figlio del figlio del padre con PID=%d\n",getpid());
-   }
+   
+   
     
 
         
@@ -33,4 +37,5 @@ printf("Io sono il figlio del figlio del padre con PID=%d\n",getpid());
         printf("ERRORE generazione figlio");
     }
     return 0;
+    
 }

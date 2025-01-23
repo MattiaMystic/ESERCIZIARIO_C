@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <fcntl.h>
+#include <time.h>
 int main(int argc, char *argv[])
 {
     /*
@@ -40,22 +41,18 @@ dichiararsi nel modo seguente:
 "P5: quello che P4 deve visualizzare*/
 
     int v1[3];
-    int n, p2, p3, p4, p5, p6;
+    int p2, p3, p4, p5, p6;
     int status;
     int Prodotto = 1;
     int Somma = 0;
     int Somma1 = 0;
     float Media = 0;
 
+    //numeri random da 0 a 5
+    srand(time(NULL));
     for (int i = 0; i < 3; i++)
     {
-        do
-        {
-            printf("Inserisci un numero valido da 0 a 5 compresi in posizione %d del nostro vettore\n", i);
-            scanf("%d", &n);
-
-        } while (n > 5 || n < 0);
-        v1[i] = n;
+        v1[i] = rand() % 6;
     }
     p2 = fork();
     if (p2 == 0)
@@ -128,7 +125,7 @@ dichiararsi nel modo seguente:
     p3 = fork();
     if (p3 == 0)
     { // figlio p3
-        printf("P3, Io sono P3 e ho PID: %d, mio padre ha PID:%d", getpid(), getppid());
+        printf("P3, Io sono P3 e ho PID: %d, mio padre ha PID:%d\n", getpid(), getppid());
         printf("P3, QUELLO CHE P3 DEVE VISUALIZZARE:\n\n\n");
         for (int i = 0; i < 3; i++)
         {
@@ -149,7 +146,7 @@ dichiararsi nel modo seguente:
         else if (p6 > 0)
         { // p3
             wait(&status);
-           
+
             printf("PADRE P3: Io sono il padre e ho PID:%d. Mio figlio p6 ha PID:%d\n", getpid(), p6);
 
             printf("P3, QUELLO CHE P3 DEVE VISUALIZZARE:\n\n\n");

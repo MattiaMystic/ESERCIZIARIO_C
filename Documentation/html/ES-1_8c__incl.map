@@ -1,6 +1,9 @@
-<map id="4F_2024&#45;2025/fork/ES&#45;1.c" name="4F_2024&#45;2025/fork/ES&#45;1.c">
-<area shape="rect" id="node1" title=" " alt="" coords="38,5,226,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,80,72,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="97,80,167,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="192,80,267,107"/>
+<map id="/home/mattia/Scrivania/ESERCIZIARIO_C/4F_2024&#45;2025/fork/ES&#45;1.c" name="/home/mattia/Scrivania/ESERCIZIARIO_C/4F_2024&#45;2025/fork/ES&#45;1.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="36,5,228,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,108,72,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,62,63,100,60,96,102,58"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="97,108,167,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="135,60,135,94,129,94,129,60"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="192,108,267,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="163,58,208,97,204,101,160,62"/>
 </map>

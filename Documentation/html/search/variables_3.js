@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['nome_125',['nome',['../structPersona.html#a5da3c85cb8e7cf2213ff210fe6ba67d7',1,'Persona']]]
+  ['marca_0',['marca',['../structAuto.html#ac2a2a12b50ccf5af3ea08ccd484c4df2',1,'Auto']]],
+  ['modelloauto_1',['ModelloAuto',['../structAuto.html#a7e4e44940013e737bfab3fc544d92d46',1,'Auto']]]
 ];

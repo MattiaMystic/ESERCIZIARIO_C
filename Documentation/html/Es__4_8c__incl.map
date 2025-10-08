@@ -1,8 +1,13 @@
-<map id="4F_2024&#45;2025/Puntatori/Es_4/Es_4.c" name="4F_2024&#45;2025/Puntatori/Es_4/Es_4.c">
-<area shape="rect" id="node1" title=" " alt="" coords="165,5,342,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,72,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="96,95,192,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="216,95,291,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="315,95,403,121"/>
-<area shape="rect" id="node6" title=" " alt="" coords="427,95,498,121"/>
+<map id="/home/mattia/Scrivania/ESERCIZIARIO_C/4F_2024&#45;2025/Puntatori/Es_4/Es_4.c" name="/home/mattia/Scrivania/ESERCIZIARIO_C/4F_2024&#45;2025/Puntatori/Es_4/Es_4.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="153,5,354,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,108,72,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,63,81,105,79,100,187,58"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="96,108,192,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,62,171,102,168,97,218,58"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="216,108,291,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="256,60,256,94,251,94,251,60"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="315,108,403,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="287,58,335,97,332,101,284,62"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="427,108,498,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="318,58,423,100,421,105,316,63"/>
 </map>

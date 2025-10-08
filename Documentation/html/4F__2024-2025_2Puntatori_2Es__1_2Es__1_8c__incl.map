@@ -1,5 +1,7 @@
-<map id="4F_2024&#45;2025/Puntatori/Es_1/Es_1.c" name="4F_2024&#45;2025/Puntatori/Es_1/Es_1.c">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,183,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="14,95,81,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="105,95,176,121"/>
+<map id="/home/mattia/Scrivania/ESERCIZIARIO_C/4F_2024&#45;2025/Puntatori/Es_1/Es_1.c" name="/home/mattia/Scrivania/ESERCIZIARIO_C/4F_2024&#45;2025/Puntatori/Es_1/Es_1.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,207,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="26,108,93,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,61,75,97,70,95,89,59"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="117,108,188,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,59,142,95,137,97,118,61"/>
 </map>
